@@ -7,6 +7,9 @@ import org.hibernate.annotations.UpdateTimestamp;
 import java.time.Instant;
 import java.util.UUID;
 
+// É como se fosse o modelo dos seus dados. Imagina que você está criando um jogo de futebol.
+// Uma Entity pode ser o "Jogador", com atributos como nome, idade, posição, etc.
+
 @Entity
 @Table(name = "tb_users")
 public class User {
