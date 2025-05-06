@@ -37,14 +37,16 @@ public class User {
     public User() {
     }
 
-    public User(UUID userId, String userName, String email, String password, Instant creationTimestamp, Instant updateImestamp) {
-        this.userId = userId;
+    public User(String userName, String email, String password, Instant creationTimestamp, Instant updateImestamp) {
+
         this.userName = userName;
         this.email = email;
         this.password = password;
         this.creationTimestamp = creationTimestamp;
         this.updateImestamp = updateImestamp;
     }
+
+
 
     public UUID getUserId() {
         return userId;
